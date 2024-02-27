@@ -1,0 +1,29 @@
+{
+    "name": "alancolant/laravel-pulse-graphql",
+    "description": "Monitor your graphql query with a Laravel pulse Card",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "COLANT Alan",
+            "email": "contact@alancolant.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "illuminate/support": "*",
+        "laravel/pulse": "^1.0.0@beta"
+    },
+    "autoload": {
+        "psr-4": {
+            "Alancolant\\PulseGraphql\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Alancolant\\PulseGraphql\\PulseGraphqlServiceProvider"
+            ]
+        }
+    }
+}
