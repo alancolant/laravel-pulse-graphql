@@ -49,7 +49,7 @@ class GraphqlRecorder
     public function record(Carbon $startedAt, array $args, $context, ResolveInfo $info): void
     {
 
-        if (!in_array($info->parentType, ["Query", "Mutation"])) {
+        if (!Route::is('graphql*') || !in_array($info->parentType, ["Query", "Mutation"])) {
             return;
         }
 
