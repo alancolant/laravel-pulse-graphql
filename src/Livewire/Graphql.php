@@ -1,6 +1,6 @@
 <?php
 
-namespace Alancolant\PulseGraphql\Livewire;
+namespace QuixLabs\LaravelPulseGraphql\Livewire;
 
 use Illuminate\Support\Facades\View;
 use Laravel\Pulse\Livewire\Card;

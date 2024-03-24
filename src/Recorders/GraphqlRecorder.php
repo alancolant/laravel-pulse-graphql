@@ -1,8 +1,8 @@
 <?php
 
-namespace Alancolant\PulseGraphql\Recorders;
+namespace QuixLabs\LaravelPulseGraphql\Recorders;
 
-use Alancolant\PulseGraphql\ResolverMiddlewares\SendEventToPulseMiddleware;
+use QuixLabs\LaravelPulseGraphql\ResolverMiddlewares\SendEventToPulseMiddleware;
 use GraphQL\Language\Printer;
 use GraphQL\Type\Definition\ResolveInfo;
 use Illuminate\Config\Repository;
