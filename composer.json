@@ -9,7 +9,7 @@
     "pulse",
     "laravel"
   ],
-  "homepage": "https://github.com/quix-labs/laravel-supabase-flysystem",
+  "homepage": "https://github.com/quix-labs/laravel-pulse-graphql",
   "authors": [
     {
       "name": "COLANT Alan",
