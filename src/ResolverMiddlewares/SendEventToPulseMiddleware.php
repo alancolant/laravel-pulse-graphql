@@ -1,6 +1,6 @@
 <?php
 
-namespace Alancolant\PulseGraphql\ResolverMiddlewares;
+namespace QuixLabs\LaravelPulseGraphql\ResolverMiddlewares;
 
 use Closure;
 use GraphQL\Type\Definition\ResolveInfo;

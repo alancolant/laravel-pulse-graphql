@@ -1,8 +1,8 @@
 <?php
 
-namespace Alancolant\PulseGraphql;
+namespace QuixLabs\LaravelPulseGraphql;
 
-use Alancolant\PulseGraphql\Livewire\Graphql;
+use QuixLabs\LaravelPulseGraphql\Livewire\Graphql;
 use Illuminate\Foundation\Application;
 use Illuminate\Support\ServiceProvider;
 use Livewire\LivewireManager;

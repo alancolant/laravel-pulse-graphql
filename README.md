@@ -2,7 +2,14 @@
 <p align="center"><img src="./screenshot.png" alt="GraphQL tracking for Laravel Pulse"></p>
 
 # GraphQL requests in Laravel Pulse
+
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/quix-labs/laravel-pulse-graphql.svg?style=flat-square)](https://packagist.org/packages/quix-labs/laravel-pulse-graphql)
+[![Total Downloads](https://img.shields.io/packagist/dt/quix-labs/laravel-pulse-graphql.svg?style=flat-square)](https://packagist.org/packages/quix-labs/laravel-pulse-graphql)
+
+___
 This package allow your to track all your GraphQL queries and mutations with rebing/graphql-laravel
+___
+
 
 
 ## Installation
@@ -10,7 +17,7 @@ This package allow your to track all your GraphQL queries and mutations with reb
 You can install the package via composer:
 
 ```bash
-composer require alancolant/laravel-pulse-graphql
+composer require quix-labs/laravel-pulse-graphql
 ```
 
 
@@ -27,7 +34,7 @@ return [
     'recorders' => [
         // Existing recorders...
         
-        \Alancolant\PulseGraphql\Recorders\GraphqlRecorder::class => [], 
+        \QuixLabs\LaravelPulseGraphql\Recorders\GraphqlRecorder::class => [], 
     ]
 ]
 ```
