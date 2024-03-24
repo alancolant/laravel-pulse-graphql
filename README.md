@@ -52,3 +52,8 @@ Then, you can modify the `dashboard.blade.php` file and add the requests-graph l
 ```php
 <livewire:pulse.graphql cols="6" />
 ```
+
+
+## License
+
+The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
