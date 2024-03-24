@@ -3,10 +3,18 @@
   "description": "Monitor your graphql query with a Laravel pulse Card",
   "type": "library",
   "license": "MIT",
+  "keywords": [
+    "graphql",
+    "rebing",
+    "pulse",
+    "laravel"
+  ],
+  "homepage": "https://github.com/quix-labs/laravel-supabase-flysystem",
   "authors": [
     {
       "name": "COLANT Alan",
-      "email": "contact@alancolant.com"
+      "email": "contact@alancolant.com",
+      "role": "Developer"
     }
   ],
   "require": {
